@@ -1,0 +1,350 @@
+.categorieslabel {
+    padding: 5px;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 1.5em;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight: 500;
+    color: #7BC5AE;
+    font-size: 35px;
+    font-style: bold;
+
+}
+.categoriesa{
+    
+    padding: 7px 0 0 31px;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Mouse Memoirs', sans-serif;
+    color: #7BC5AE;
+}
+
+.categoriesul
+{
+  list-style: none;
+}
+.categoriesli
+{
+  list-style: none;
+}
+
+.categoriesinput
+{
+  position: absolute;
+  opacity: 0;
+}
+
+.categories
+{
+  font: normal 11px "Segoe UI", Arial, Sans-serif;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    float:right;
+    width:30%;
+    height: 70%;
+    max-width: inherit;
+}
+
+.categoriesa {
+    color: #7BC5AE;
+    text-decoration: none;
+}
+
+.categoriesa:hover
+{
+  text-decoration: underline;
+  color:lightcoral;
+}
+
+.categoriesinput + label + ul
+{
+  margin: 0 0 0 22px;
+}
+
+.categoriesinput + label + ul
+{
+  display: none;
+}
+
+
+
+.categoriesinput:disabled + label
+{
+  cursor: default;
+  opacity: .6;
+}
+
+.categoriesinput:checked:not(:disabled) + label + ul
+{
+  display: block;
+}
+
+.butn{
+    
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #7BC5AE;
+        border: none;
+        width:60%;
+        
+        margin-top: 100px;
+      }
+      
+      
+      
+      .butn:active {
+        background-color: #7BC5AE;
+        box-shadow: 0 5px #666;
+        transform: tra
+      }
+
+
+      .contai {
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-style: oblique;
+        color: lightcoral;
+        width: 100%;
+      max-width:inherit;
+        
+      }
+
+      .wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      
+      @media screen and (max-width: 480px) {
+        .title {
+          text-align: center;
+          
+        font-family: "Brush Script MT", cursive;
+        font-size: 90px;
+        text-shadow: 3px 3px 3px #ababab;
+        text-align: center;
+          
+        }
+    }
+
+    .diva{
+        width:2%;
+        height: 100%;
+        background-color: white;
+        
+    
+        background-color: white;
+      }
+
+      .divv{
+
+        width: 100%;
+        height:20%;
+        text-align: center;
+      }
+      
+     
+
+.hhq{
+@media (max-width: 991px)
+  float: right;
+  width: 65%;
+  padding: 0;
+font-size: 14px;
+}
+
+
+.bg {
+    background-image:url(/img/ba.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 90px;
+  }
+
+  .pp  {
+    color:white;
+   
+    font-size:30px;
+    text-align: center;
+  }
+
+  
+  .lin:link {
+    color:white;
+  }
+  
+  /* visited link */
+  .lin:visited {
+    color:gray;
+  }
+  
+  /* mouse over link */
+  .lin:hover {
+    color:lightcoral;
+  }
+  
+  /* selected link */
+  .lin:active {
+    color: blue;
+  }
+
+  
+  .categoriesa:link {
+    color: #7BC5AE;
+  }
+  
+  /* visited link */
+  
+  
+  /* mouse over link */
+  
+  
+ 
+.hg{
+
+    font-size: 30px;
+}
+.ti{
+    font-size: 70px;
+    color:black;
+}
+
+.cc{
+  padding-top: 3.5em;
+  display: block;
+  padding: 0 0;
+  margin: 0 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  float: right;
+width: 100%;
+max-width: inherit;
+}
+.ff {
+  text-align: center;
+  font-size: 2em;
+  padding: 0.2em;
+  background: #7BC5AE;
+  color: #fff;
+  margin-bottom: 0.5em;
+}
+.imgresponsive{
+  display: block;
+  max-width: 100%;
+  height:90px;
+width: 600px;
+float: auto;
+}
+.recentright {
+  float: left;
+  width: 68%;
+  margin-top: 1em;
+}
+.recentleft {
+  float: right;
+  width: 30%;
+box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+.bb {
+  color: lightcoral;
+  text-decoration: none;
+font-size: 14px;
+}
+.bb{
+  background: transparent;
+}
+.bb:hover{
+   color: #7BC5AE;
+}
+.cf{
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  padding: 0 0;
+  margin: 0 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.cf:before, .cf:after {
+  display: table;
+  content: " ";
+clear: both;
+}
+.recentgrids {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  display: block;
+  padding: 0 0;
+  margin: 0 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.best2{
+font-size: 10px;
+}
+.gg{
+font-size: 12px;
+}
+.oo{
+  
+max-width: inherit;
+width:100%;
+
+}

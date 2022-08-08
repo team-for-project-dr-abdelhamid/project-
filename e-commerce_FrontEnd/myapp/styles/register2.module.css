@@ -1,0 +1,68 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 3em 0;
+    display: block;
+    width: 30%;
+    height: 70%;
+    margin: 0em auto;
+    -webkit-box-shadow: 0px 0px 15px 0px #d6d6d6;
+    box-shadow: 0px 0px 15px 0px #d6d6d6;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .formm{
+      background-color: white;
+      padding: 0px 60px;
+      border-radius: 10px;
+  }
+  
+  .h11{
+    color: black;
+    font-size: 2.5em;
+    
+    margin-bottom: 1.5em;
+    margin-left: 150px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+ .buttonn{
+      width: 60%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: #7BC5AE;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+      
+  }
+
+.buttonn:hover{
+
+    background-color: lightcoral;
+
+}

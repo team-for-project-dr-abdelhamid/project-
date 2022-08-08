@@ -1,0 +1,256 @@
+.cont{
+
+  width: 80%;
+
+  margin-left: 200px;
+  font-family: 'Comfortaa', cursive;
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+.conth1{
+
+  padding: 20px 0;
+  margin-left: 350px;
+
+}
+.fa{
+
+  margin-right: 5px;
+
+}
+
+.cart{
+
+  display: flex;
+
+}
+
+.products{
+
+  flex: 0.75;
+
+}
+
+.product{
+
+  display: flex;
+
+  width: 100%;
+
+  height: 200px;
+
+  overflow: hidden;
+
+  border: 1px solid silver;
+
+  margin-bottom: 20px;
+  background-color: white;
+
+}
+
+.product:hover{
+
+  border: none;
+
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+  transform: scale(1.01);
+
+}
+
+.productimg{
+
+  width: 300px;
+
+  height: 200px;
+
+  
+  width: 100%;
+  max-width:inherit;
+
+}
+
+.productimg:hover{
+
+  transform: scale(1.04);
+
+}
+
+.productinfo{
+
+  padding: 20px;
+
+  width: 100%;
+
+  position: relative;
+
+}
+
+.productname, .productprice, .productoffer{
+
+  margin-bottom: 20px;
+
+}
+
+.productremove{
+
+  position: absolute;
+
+  bottom: 20px;
+
+  right: 20px;
+
+  padding: 10px 25px;
+
+  background-color: #7BC5AE;
+
+  color:white;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+}
+
+.productremove:hover{
+
+  
+
+  background-color: lightcoral;
+
+  font-weight: 600;
+
+  border: 1px solid ;
+
+}
+
+.productquantityinput{
+
+  width: 40px;
+
+  padding: 5px;
+
+  text-align: center;
+
+}
+
+.fa{
+
+  margin-right: 5px;
+
+}
+
+.carttotal{
+
+  flex: 0.25;
+
+  margin-left: 20px;
+
+  padding: 20px;
+
+  height: 240px;
+
+  border: 1px solid silver;
+
+  border-radius: 5px;
+
+}
+
+.carttotalp{
+
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 30px;
+
+  font-size: 20px;
+
+}
+
+.carttotala{
+
+  display: block;
+
+  text-align: center;
+
+  height: 40px;
+
+  line-height: 40px;
+
+  background-color: #7BC5AE;
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+.carttotala:hover{
+
+  background-color: lightcoral;
+
+}
+
+@media screen and (max-width: 700px){
+
+  .remove{
+
+    display: none;
+
+  }
+
+  .product{
+
+    height: 150px;
+
+  }
+
+  .productimg{
+
+    height: 150px;
+
+    width: 200px;
+
+  }
+
+  .productname, .productprice, .productoffer{
+
+    margin-bottom: 10px;
+
+  }
+
+}
+
+@media screen and (max-width: 900px){
+
+  .cart{
+
+    flex-direction: column;
+
+  }
+
+  .carttotal{
+
+    margin-left: 0;
+
+    margin-bottom: 20px;
+
+  }
+
+}
+
+@media screen and (max-width: 1220px){
+
+  .cont{
+
+    max-width: 95%;
+
+  }
+
+}
+
+
