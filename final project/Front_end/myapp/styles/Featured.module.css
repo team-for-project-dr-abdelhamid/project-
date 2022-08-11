@@ -1,0 +1,43 @@
+.container {
+    height: calc(100vh - 100px);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 60px;
+    
+    
+
+  }
+  
+  .arrowContainer {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .wrapper {
+    width: 600vw;
+    height: 100%;
+    display: flex;
+    transition: all 1.5s ease-in-out ;
+    max-width: inherit;
+  }
+  
+  .imgContainer {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    max-width: inherit;
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container{
+      height: 50vh;
+    }
+  }
