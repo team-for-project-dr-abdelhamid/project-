@@ -8,7 +8,7 @@ import filterSearch from '../utils/filterSearch'
 import {useRouter} from 'next/router'
 import Filter from '../components/Filter'
 
-import Featured from '../components/Featured'
+
 
 
 
