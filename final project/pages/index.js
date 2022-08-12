@@ -89,9 +89,7 @@ const Home = (props) => {
         
       }
 
-<div>
-<Featured/>
-</div>
+<br></br><br></br>
        
          
       <div className="products">

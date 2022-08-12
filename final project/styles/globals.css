@@ -41,9 +41,9 @@ img{
   background-color: #1d2124!important;
 }
 
-  @media (min-width: 992px){
+  @media (min-width: 800px){
   .container, .container-lg, .container-md, .container-sm {
-      max-width: 1518px;
+      max-width: 2000px;
   }}
 
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
@@ -141,6 +141,9 @@ li {
 
   .logo{
     font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size:x-large;
+    
   }
 
  a:hover{
@@ -199,7 +202,7 @@ button.btn.btn-info{
   border:#d39e00;
 }
 .col-md-6{
-  margin-left: 30px;
+  
   border-radius: 5em;
 }
 
@@ -230,3 +233,53 @@ button.btn.btn-info{
 margin-left: 1rem;
 }
 
+
+
+form.mx-auto,.my-4{
+min-height:600px;
+}
+
+ .my-4 {
+   margin-top: 7rem!important; 
+}
+
+.btn.btn-dark.w-100 {
+  margin-left: 1rem;
+}
+.btn.btn-dark.w-100 {
+  margin-bottom: 1rem;
+}
+.card{
+  width:25rem;
+  max-width: inherit;
+
+}
+
+div.col-md-8.text-secondary.table-responsive.my-3{
+
+  height:600px;
+  
+
+}
+
+.container{
+  background-color: #fffbf2;
+}
+
+
+.mt-4 {
+  margin-top: 1.5rem!important;
+}
+
+.w-100 {
+  width: 500px!important;
+}
+
+.detail_page{
+  height: 700px;
+}
+
+.products .card-img-top {
+  height: 350px;
+  
+}

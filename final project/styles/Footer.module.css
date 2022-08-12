@@ -1,8 +1,8 @@
 .conta {
-    height: calc(100vh - 100px);
+    height: 100%;
     background-color:  black;
     display: flex;
-    width: 7000px;
+    width: 100%;
     max-width:inherit;
     margin-left: 0;
     margin-right: 0;

@@ -25,7 +25,8 @@ const DetailProduct = (props) => {
             <div className="col-md-6">
                 <img src={ product.images[tab].url } alt={ product.images[tab].url }
                 className="d-block img-thumbnail rounded mt-4 w-100"
-                style={{height: '350px'}} />
+                style={{height: '500px' , padding:'20px'
+                } }  />
 
                 <div className="row mx-0" style={{cursor: 'pointer'}} >
 
@@ -39,7 +40,7 @@ const DetailProduct = (props) => {
                 </div>
             </div>
 
-            <div className="col-md-6 mt-3">
+            <div className="col-md-6 mt-3" style={{marginRight:'0px'}}>
                 <h2 className="text-uppercase">{product.title}</h2>
                 <h5 className="text-danger">${product.price}</h5>
 
