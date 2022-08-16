@@ -1,4 +1,11 @@
-# HotchPotch
+# HotchPotch 
+---
+## Rebuilt an e-commerce project using:
+ * next js
+ * javascript
+ * mongoess
+  ---
+
 ## visit: [here](https://hotchpotch-store.herokuapp.com/)
 ### To run locally:
 1- replace ``` BASE_URL: "https://hotchpotch-store.herokuapp.com" ``` with ``` BASE_URL: "http://localhost:3000" ``` in next.config file <br>
