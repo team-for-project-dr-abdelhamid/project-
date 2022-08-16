@@ -1,4 +1,4 @@
-# HotchPotch 
+# name website: HotchPotch 
 ---
 ## Rebuilt an e-commerce project using:
  * next js
