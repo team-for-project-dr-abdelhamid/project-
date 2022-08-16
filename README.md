@@ -1,6 +1,7 @@
 # Website name: HotchPotch 
 ![](http://imgur.com/t3teAxi.png)
 ---
+## deploy link:[here](https://hotchpotch-store.herokuapp.com/)
 ## Built an e-commerce project using:
  * next js
  * javascript
@@ -49,7 +50,7 @@ People actively working on this project:
 @mohamedmahfouz3,@mohamedkhaledmk,@MahmoudKamal01,@MariamTarek22,@mona690,@yasminahmed01,@nihal599
 
 
-## visit: [here](https://hotchpotch-store.herokuapp.com/)
+
 ### To run locally:
 1- replace ``` BASE_URL: "https://hotchpotch-store.herokuapp.com" ``` with ``` BASE_URL: "http://localhost:3000" ``` in next.config file <br>
 2- ```npm install```    (if does not work) try ```npm install --legacy-peer-deps```  <br>
