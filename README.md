@@ -37,7 +37,7 @@
 |----------|:-------------|
 | Create a Cart | Ability of Create a new Cart |
 | See Cart | Ability to see the Cart and it items |
-| Remove a Cart | Ability of Remove a Cart |
+| Product feature | Ability of searching, filtering and viewing products |
 | Add Item | Ability of add a new Item on the Cart |
 | Remove a Item | Ability of Remove a Item from the Cart |
 | Checkout | Ability to Checkout |
