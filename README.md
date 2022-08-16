@@ -1,7 +1,7 @@
 # Website name: HotchPotch 
 ![](http://imgur.com/t3teAxi.png)
 ---
-## deploy link:[https://hotchpotch-store.herokuapp.com]
+## deploy link:(https://hotchpotch-store.herokuapp.com)
 ## Built an e-commerce project using:
  * next js
  * javascript
