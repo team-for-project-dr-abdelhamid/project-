@@ -1,5 +1,5 @@
 # Website name: HotchPotch 
-![]([https://www.vecteezy.com/free-vector/cart](https://www.vecteezy.com/free-vector/cart))
+![](http://imgur.com/t3teAxi.png)
 ---
 ## Built an e-commerce project using:
  * next js
