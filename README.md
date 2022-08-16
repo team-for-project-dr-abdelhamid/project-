@@ -18,17 +18,19 @@
   HotchPotch is an online store to buy many products
 ## Features
 
-<b>Products Features</b>
+<b>Admin Features</b>
 
 | Feature  | Description  |
 |----------|:-------------|
 | Add a Product | Ability of Add a Product on the System |
-| List Products | Ability of List Products |
-| Edit a Product | Ability of Edit a Product |
-| Delete a Product| Ability of Delete a Product |
-| Stock  | Ability of Update the Stock |
+| Add a category | Ability of adding category |
+| Deleta a category | Ability of deleting category |
+| Edit a Product | Ability of Editing a Product |
+| Delete a Product| Ability of Deleting a Product |
+| Stock  | Ability of Updating the Stock |
+| Delivering  | Ability of Updating order to deleivered |
 
-<b>Purchase Features</b>
+<b>User Features</b>
 
 | Feature  | Description  |
 |----------|:-------------|
