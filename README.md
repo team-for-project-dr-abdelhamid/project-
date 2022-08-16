@@ -1,9 +1,9 @@
-# name website: HotchPotch 
+# Website name: HotchPotch 
 ---
-## Rebuilt an e-commerce project using:
+## Built an e-commerce project using:
  * next js
  * javascript
- * mongoess
+ * mongoose
   ---
 ## What I learnt from the project:
  1. NextJS basics like setting up project, navigating between pages and data fetching
