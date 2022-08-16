@@ -5,6 +5,16 @@
  * javascript
  * mongoess
   ---
+## What I learnt from the project:
+ 1. NextJS basics like setting up project, navigating between pages and data fetching
+ 2. NextJS advanced topics like dynamic routing, image optimization, SSG and SSR
+ 3. ReactJS including decomposing components, context API and hooks
+ 4. Next Connect package to build backend API
+ 5. MongoDB and Mongoose to save and retrieve data like products, orders and users
+ 6. Deploy web applications on heroku
+---
+   
+
 
 ## visit: [here](https://hotchpotch-store.herokuapp.com/)
 ### To run locally:
