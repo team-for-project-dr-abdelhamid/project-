@@ -13,7 +13,15 @@
  5. MongoDB and Mongoose to save and retrieve data like products, orders and users
  6. Deploy web applications on heroku
 ---
-   
+# Description:
+  HotchPotch is an online store to buy many products
+
+____
+## Work in progress
+We're using Github Projects to keep track of issues in progress and todo's. Here is our Board
+
+People actively working on this project:
+@mohamedmahfouz3,@mohamedkhaledmk,@MahmoudKamal01,@MariamTarek22,@mona690,@yasminahmed01,@nihal599
 
 
 ## visit: [here](https://hotchpotch-store.herokuapp.com/)
