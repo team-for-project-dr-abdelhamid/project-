@@ -11,4 +11,13 @@ module.exports = {
     CLOUD_NAME: "depaw8t53",
     CLOUD_API: "https://api.cloudinary.com/v1_1/depaw8t53/image/upload",
   },
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.node = {
+        net: "empty",
+      };
+    }
+
+    return config;
+  },
 };
