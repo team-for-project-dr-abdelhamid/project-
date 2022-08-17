@@ -6,7 +6,7 @@ export const getData = async (url, token) => {
     headers: {
       Authorization: token,
       "Access-Control-Allow-Credentials": "true",
-      "Access-Control-Allow-Origin": "https://hotch-potch.herokuapp.com",
+      "Access-Control-Allow-Origin": `${baseUrl}/api/${url}`,
       "Access-Control-Allow-Methods": "GET,OPTIONS,PATCH,DELETE,POST,PUT",
       "Access-Control-Allow-Headers":
         "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version",
@@ -24,7 +24,7 @@ export const postData = async (url, post, token) => {
       "Content-Type": "application/json",
       Authorization: token,
       "Access-Control-Allow-Credentials": "true",
-      "Access-Control-Allow-Origin": "https://hotch-potch.herokuapp.com",
+      "Access-Control-Allow-Origin": `${baseUrl}/api/${url}`,
       "Access-Control-Allow-Methods": "GET,OPTIONS,PATCH,DELETE,POST,PUT",
       "Access-Control-Allow-Headers":
         "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version",
@@ -43,7 +43,7 @@ export const putData = async (url, post, token) => {
       "Content-Type": "application/json",
       Authorization: token,
       "Access-Control-Allow-Credentials": "true",
-      "Access-Control-Allow-Origin": "https://hotch-potch.herokuapp.com",
+      "Access-Control-Allow-Origin": `${baseUrl}/api/${url}`,
       "Access-Control-Allow-Methods": "GET,OPTIONS,PATCH,DELETE,POST,PUT",
       "Access-Control-Allow-Headers":
         "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version",
@@ -62,7 +62,7 @@ export const patchData = async (url, post, token) => {
       "Content-Type": "application/json",
       Authorization: token,
       "Access-Control-Allow-Credentials": "true",
-      "Access-Control-Allow-Origin": "https://hotch-potch.herokuapp.com",
+      "Access-Control-Allow-Origin": `${baseUrl}/api/${url}`,
       "Access-Control-Allow-Methods": "GET,OPTIONS,PATCH,DELETE,POST,PUT",
       "Access-Control-Allow-Headers":
         "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version",
@@ -81,7 +81,7 @@ export const deleteData = async (url, token) => {
       "Content-Type": "application/json",
       Authorization: token,
       "Access-Control-Allow-Credentials": "true",
-      "Access-Control-Allow-Origin": "https://hotch-potch.herokuapp.com",
+      "Access-Control-Allow-Origin": `${baseUrl}/api/${url}`,
       "Access-Control-Allow-Methods": "GET,OPTIONS,PATCH,DELETE,POST,PUT",
       "Access-Control-Allow-Headers":
         "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version",
